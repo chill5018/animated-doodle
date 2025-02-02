@@ -46,6 +46,13 @@ class DogBreed {
     this.weight = apiData.weight;
     this.height = apiData.height;
   }
+
+  toDropdownResult() {
+    return {
+      title: this.name,
+      subTitle: this.temperament.join(', '),
+    }
+  }
 }
 
 export default DogBreed;
