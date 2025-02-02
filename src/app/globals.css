@@ -5,17 +5,24 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-yellow: #FBD960;
+  --color-green: #AAE9A0;
+  --color-blue: #99DAFF;
+  --color-selected: #B7FAAC;
+  --color-black: #000000;
+  --color-text-title: #201F1F;
+  --color-text-subtitle: #2E2D2D;
+
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-size--label16: 16px;
+  --line-height--label16: 19.2px;
+  --font-weight--label16: var(--font-weight-light);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
 }
