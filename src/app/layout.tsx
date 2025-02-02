@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 
 import "./globals.css";
-import Providers from "./providers/ReactQueryProvider";
+import Providers from "../providers/ReactQueryProvider";
 
 const lato = Lato({
   variable: "--font-lato",
