@@ -8,19 +8,19 @@ import { TextVariants } from "../Typography/types";
 import { useClickOutside } from "@/hooks/handleClickOutside";
 import { DropdownOptions, DropdownOptionType } from "./DropdownOptions";
 
-export interface DropdownProps<T> {
+export interface DropdownProps {
   options: DropdownOptionType[];
   onSelect: (option: DropdownOptionType) => void;
   label?: string;
   placeholder?: string;
 }
 
-export const Dropdown = <T extends { title: string; subTitle?: string }>({
+export const Dropdown = ({
   options,
   onSelect,
   label = "Select an option",
   placeholder = "Choose an option",
-}: DropdownProps<T>) => {
+}: DropdownProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selected, setSelected] = useState<DropdownOptionType | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null!);
