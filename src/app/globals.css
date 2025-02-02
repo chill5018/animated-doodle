@@ -9,15 +9,32 @@
   --color-green: #AAE9A0;
   --color-blue: #99DAFF;
   --color-selected: #B7FAAC;
+
+  --dropdown-background: rgba(0, 0, 0, 0.05);
+  --dropdown-background--focused: var(--color-selected);
+
   --color-black: #000000;
   --color-text-title: #201F1F;
   --color-text-subtitle: #2E2D2D;
 
   --font-weight-light: 300;
   --font-weight-normal: 400;
+
   --font-size--label16: 16px;
   --line-height--label16: 19.2px;
   --font-weight--label16: var(--font-weight-light);
+
+  --font-size--standard20: 20px;
+  --line-height--standard20: 24px;
+  --font-weight--standard20: var(--font-weight-light);
+
+  --font-size--title20: 20px;
+  --line-height--title20: 24px;
+  --font-weight--title20: var(--font-weight-normal);
+  
+  --font-size--subTitle20: 20px;
+  --line-height--subTitle20: 24px;
+  --font-weight--subTitle20: var(--font-weight-light);
 }
 
 

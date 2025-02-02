@@ -11,6 +11,19 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        black: "var(--color-black)",
+        yellow: "var(--color-yellow)",
+        green: "var(--color-green)",
+        blue: "var(--color-blue)",
+        selected: "var(--color-selected)",
+        dropdown: {
+          DEFAULT: "var(--dropdown-background)",
+          focused: "var(--dropdown-background--focused)",
+        },
+        text: {
+          title: "var(--color-text-title)",
+          subtitle: "var(--color-text-subtitle)",
+        },
       },
     },
   },
