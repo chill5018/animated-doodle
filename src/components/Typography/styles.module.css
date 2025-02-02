@@ -1,0 +1,38 @@
+
+.typography {
+  color: var(--color-black);
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.primary {
+  color: var(--color-black);
+}
+
+
+.label16 {
+  font-size: var(--font-size--label16);
+  font-weight: var(--font-weight--label16);
+  line-height: var(--line-height--label16);
+}
+.title20 {
+  font-size: var(--font-size--title20);
+  font-weight: var(--font-weight--title20);
+  line-height: var(--line-height--title20);
+  color: var(--color-text-title);
+}
+
+.standard20 {
+  font-size: var(--font-size--standard20);
+  font-weight: var(--font-weight--standard20);
+  line-height: var(--line-height--standard20);
+  color: var(--color-black);
+}
+
+.subTitle20 {
+  font-size: var(--font-size--subTitle20);
+  font-weight: var(--font-weight--subTitle20);
+  line-height: var(--line-height--subTitle20);
+  color: var(--color-text-subtitle);
+}
